@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Santa Clara</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" href="imgs/logo.png" rel="shortcut icon">
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="header-menu">
+            <a class="header-menu-redir-logo">
+                <img src="imgs/logo-title.png" class="logo-title" draggable="false">
+            </a>
+            <a class="header-menu-redir" href="index.html">
+                Início
+            </a>
+            <a class="header-menu-redir" href="parque.html">
+                Parque
+            </a>
+            <a class="header-menu-redir" href="atracoes.html">
+                Atrações
+            </a>
+            <a class="header-menu-redir" href="index.html#ingresso">
+                Comprar Ingressos
+            </a>
+            <a class="header-menu-redir to-aq" href="login.html">
+                Login
+            </a>
+        </nav>
+    </header>
+    <main class="index">
+        <section class="index-content">
+            <h1 class="index-content-title">
+                Entre na sua conta aqui!
+            </h1>
+            <div class="login-box">
+                <form class="login">
+                    <input type="text" placeholder="Usuário/Nome" id="login" class="login">
+                    <input type="password" placeholder="Senha" id="pw" class="pw">
+                    <a class="login-text" href="https://wa.me/5511991462925?text=Quero%20criar%20uma%20conta%20para%20acessar%20meus%20ingressos." target="_blank" rel="noopener noreferrer">Não tenho uma conta.</a>
+                    <input type="submit" onclick="logar(); return false" class="button-submit" value="Entrar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Esse site foi desenvolvido específicamente para os jogadores de Ordem Paranormal: Diversão Maldita
+        <br>
+        com muito carinho, <a class="eu" href="https://x.com/HwPiter" target="_blank" rel="noopener noreferrer">Mestre</a> ❤️</p>
+    </footer>
+    <!--
+
+    ,"Johnny Volt"
+,"JONbest145!@"
+    -->
+</body>
+</html>
+
+
+<script>
+    function logar(){
+        var login = document.getElementById('login').value;
+        var pw = document.getElementById('pw').value;
+
+        if(login == "Karina Dennick" && pw == "dgWS2_15"){
+            location.href = "index-login.html";
+        }
+        if(login == "Johnny Volt" && pw == "JONbest145!@"){
+            location.href = "index-login.html";
+        }
+    }
+</script>
