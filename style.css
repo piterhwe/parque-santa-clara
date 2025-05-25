@@ -92,7 +92,7 @@
 }
 
 .index{
-    padding: 0px 0px 289px 0px;
+    padding: 150px 0px 289px 0px;
 }
 
 .index-content-title{
@@ -100,7 +100,7 @@
     justify-content: center;
     font-size: 3rem;
     color: rgb(113, 245, 135);
-    padding: 250px 0% 15px 0%;
+    padding: 150px 0% 15px 0%;
     flex-direction: column;
     align-items: center;
     gap: 50px;
