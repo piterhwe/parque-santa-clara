@@ -252,17 +252,22 @@ input[type="text" i], input[type="password" i]{
     padding: 3px 0% 25px 0%;
 }
 
+.grid-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
 .grid-ingressos{
     display: grid;
     grid-template-columns: repeat(2, 500px);
     grid-template-rows: repeat(9, 450px);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
     border: 2px solid black;
     border-radius: 50px;
     align-items: center;
     justify-items: center;
+    justify-content: center;
+    max-width: 1000px;
 }
 
 .name{
