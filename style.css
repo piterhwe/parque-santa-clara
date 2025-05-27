@@ -269,15 +269,22 @@ input[type="text" i], input[type="password" i]{
 }
 
 .grid-ingressos{
-    display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(9, 450px);
     border: 2px solid black;
     border-radius: 50px;
+    display: flex;
     align-items: center;
     justify-items: center;
     justify-content: center;
-    max-width: 1000px;
+    flex-direction: column;
+    width: 600px;
+}
+
+.ingresso-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .name{
@@ -290,70 +297,8 @@ input[type="text" i], input[type="password" i]{
 
 .qrcode{
     grid-column: 2;
-    width: 200px;
-}
-
-.jade{
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.johnny{
-    grid-column: 1;
-    grid-row: 2;
-    display: flex;
-    flex-direction: column;
-}
-
-.karina{
-    grid-column: 1;
-    grid-row: 3;
-    display: flex;
-    flex-direction: column;
-}
-
-.layla{
-    grid-column: 1;
-    grid-row: 4;
-    display: flex;
-    flex-direction: column;
-}
-
-.marcos{
-    grid-column: 1;
-    grid-row: 5;
-    display: flex;
-    flex-direction: column;
-}
-
-.max{
-    grid-column: 1;
-    grid-row: 6;
-    display: flex;
-    flex-direction: column;
-}
-
-.noah{
-    grid-column: 1;
-    grid-row: 7;
-    display: flex;
-    flex-direction: column;
-}
-
-.olga{
-    grid-column: 1;
-    grid-row: 8;
-    display: flex;
-    flex-direction: column;
-}
-
-.ravi{
-    grid-column: 1;
-    grid-row: 9;
-    display: flex;
-    flex-direction: column;
+    width: 150px;
+    padding: 15px;
 }
 
 .footer{
